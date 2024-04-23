@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 40px;
+    background-image: url("../../../public/Images/DashboardBackground.jpg");
+    background-size: cover;
+    height: 77vh;
+    
+}
+.heading{
+    color: #6983DC;
+    font-size: 28px;
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+}
+.description{
+  margin-bottom: 3%;
+  color: #2B2B2B;
+  font-size: 18px;
+  font-weight:400;
+}
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #699BF7;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 90px;
+}
+.text{
+    color: white;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    .container{
+    position: relative;
+    overflow: hidden;
+    padding: 8px;
+    background-position: 15% 15%;
+    background-image: url("../../../public/Images/DashboardBackground.jpg");
+    background-size: cover;
+    height: 85vh;
+    }
+ 
+}
